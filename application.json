@@ -1,0 +1,41 @@
+{
+  "pages": [
+    {
+      "id": "HomePage",
+      "isDefault": true
+    },
+    {
+      "id": "TAHomePage",
+      "isDefault": false
+    },
+    {
+      "id": "ProfessorHomePage",
+      "isDefault": false
+    },
+    {
+      "id": "StudentHomePage",
+      "isDefault": false
+    },
+    {
+      "id": "CommonClassPage",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "color": "#F4FFDE",
+  "icon": "card",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
