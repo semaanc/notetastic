@@ -1,8 +1,16 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "StudentHomePage",
       "isDefault": true
+    },
+    {
+      "id": "AllClasses",
+      "isDefault": false
+    },
+    {
+      "id": "ClassPage",
+      "isDefault": false
     }
   ],
   "viewMode": false,
