@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 410,
+          "bottomRow": 540,
           "containerStyle": "none",
           "snapRows": 65,
           "parentRowSpace": 1,
@@ -33,8 +33,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "course_id",
-                "class_id"
+                "appsmith.store.course_id",
+                "appsmith.store.class_id"
               ],
               "timeoutInMillisecond": 10000
             }
