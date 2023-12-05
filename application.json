@@ -2,15 +2,23 @@
   "pages": [
     {
       "id": "StudentHomePage",
+      "isDefault": false
+    },
+    {
+      "id": "CommonClassPage",
+      "isDefault": false
+    },
+    {
+      "id": "ProfessorHomePage",
+      "isDefault": false
+    },
+    {
+      "id": "TAHomePage",
+      "isDefault": false
+    },
+    {
+      "id": "Homepage",
       "isDefault": true
-    },
-    {
-      "id": "AllClasses",
-      "isDefault": false
-    },
-    {
-      "id": "ClassPage",
-      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -23,6 +31,9 @@
   },
   "color": "#E3DEFF",
   "icon": "package",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

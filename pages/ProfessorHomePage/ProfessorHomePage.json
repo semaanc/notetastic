@@ -1,35 +1,45 @@
 {
   "unpublishedPage": {
-    "name": "StudentHomePage",
-    "slug": "studenthomepage",
+    "name": "ProfessorHomePage",
+    "slug": "professorhomepage",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 730,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 79,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 810,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "ProfessorHomePage_GetAllClasses",
+              "name": "GetAllClasses",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "StudentHomePage",
+        "id": "ProfessorHomePage",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e2eae67697d06b787536b_656e2eae67697d06b787536d"
+  "gitSyncId": "656ea5e5de19430d59cb5b03_656f5f00de19430d59cb5b12"
 }

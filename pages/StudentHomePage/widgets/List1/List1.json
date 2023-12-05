@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 6,
+    "topRow": 23,
     "pageSize": 3,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -18,7 +18,7 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"}
     ],
-    "leftColumn": 13,
+    "leftColumn": 18,
     "enhancements": true,
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -103,7 +103,7 @@
         }
     ],
     "displayName": "List",
-    "bottomRow": 46,
+    "bottomRow": 63,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
@@ -114,7 +114,7 @@
     "key": "dqrt0o2xra",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 42,
     "widgetId": "43a27cc303",
     "minWidth": 450,
     "parentId": "0",

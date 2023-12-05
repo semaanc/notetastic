@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "ClassPage",
-    "slug": "classpage",
+    "name": "CommonClassPage",
+    "slug": "commonclasspage",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 540,
+          "bottomRow": 600,
           "containerStyle": "none",
           "snapRows": 65,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "ClassPage_ClassData",
+              "id": "CommonClassPage_ClassData",
               "name": "ClassData",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -42,7 +42,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "ClassPage",
+        "id": "CommonClassPage",
         "deleted": false,
         "policies": [],
         "userPermissions": []
