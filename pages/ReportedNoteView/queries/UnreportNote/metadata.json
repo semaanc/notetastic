@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "PutReportedFalse",
+    "name": "UnreportNote",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -59,9 +59,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-06T04:42:38Z"
+    "createdAt": "2023-12-06T17:51:08Z"
   },
-  "id": "ReportedNoteView_PutReportedFalse",
+  "id": "ReportedNoteView_UnreportNote",
   "deleted": false,
-  "gitSyncId": "656f906b19474a1789a44f9d_656ffbbe8415d124a1961948"
+  "gitSyncId": "6570b08d9700ab3ccea2ff23_6570b48cf68da02354665999"
 }
