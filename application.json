@@ -35,6 +35,10 @@
     {
       "id": "StudentClassesPage",
       "isDefault": false
+    },
+    {
+      "id": "StudentClassFolderNotes",
+      "isDefault": false
     }
   ],
   "viewMode": false,
