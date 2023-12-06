@@ -50,6 +50,9 @@
   "unpublishedAppLayout": {
     "type": "FLUID"
   },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

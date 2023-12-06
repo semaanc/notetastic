@@ -3,6 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 51,
     "widgetName": "ViewReportedNotes",
+    "onClick": "{{navigateTo('ReportedNotes', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -18,7 +19,7 @@
     "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 11.796875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 48,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
