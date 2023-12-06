@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "StudentHomePage",
-    "slug": "studenthomepage",
+    "name": "ReportedNoteView",
+    "slug": "reportednoteview",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 570,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -30,7 +30,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "StudentHomePage",
+        "id": "ReportedNoteView",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -41,5 +41,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656f8a4419474a1789a44f7d_656f8abc19474a1789a44f8b"
+  "gitSyncId": "656f906b19474a1789a44f9d_656ff5528415d124a1961943"
 }

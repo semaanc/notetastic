@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 482,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -21,9 +21,11 @@
           "canExtend": true,
           "version": 87,
           "minHeight": 810,
+          "useAutoLayout": false,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
-          "leftColumn": 0
+          "leftColumn": 0,
+          "positioning": "fixed"
         },
         "layoutOnLoadActions": [
           [
@@ -33,8 +35,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.course_id",
-                "appsmith.store.class_id"
+                "appsmith.store.class_id",
+                "appsmith.store.course_id"
               ],
               "timeoutInMillisecond": 10000
             }

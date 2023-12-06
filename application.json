@@ -19,6 +19,22 @@
     {
       "id": "CommonClassPage",
       "isDefault": false
+    },
+    {
+      "id": "CreateClassPage",
+      "isDefault": false
+    },
+    {
+      "id": "DeleteClassPage",
+      "isDefault": false
+    },
+    {
+      "id": "ReportedNotes",
+      "isDefault": false
+    },
+    {
+      "id": "ReportedNoteView",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -31,6 +47,9 @@
   },
   "color": "#F4FFDE",
   "icon": "card",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
