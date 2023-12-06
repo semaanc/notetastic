@@ -71,7 +71,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 41,
+    "bottomRow": 38,
     "columnWidthMap": {
         "student_id": 116,
         "last_name": 119,

@@ -62,7 +62,7 @@
     "primaryColumnId": "folder_name",
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 78,
-    "widgetName": "Table1",
+    "widgetName": "ClassFoldersTable",
     "defaultPageSize": 0,
     "columnOrder": [
         "class_id",
@@ -72,7 +72,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 41,
+    "bottomRow": 38,
     "columnWidthMap": {"folder_name": 164},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -82,7 +82,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "course_id": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"course_id\"]))}}",
+            "computedValue": "{{ClassFoldersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"course_id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "course_id",
@@ -113,7 +113,7 @@
             "verticalAlignment": "CENTER"
         },
         "date_created": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_created\"]))}}",
+            "computedValue": "{{ClassFoldersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_created\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "date_created",
@@ -144,7 +144,7 @@
             "verticalAlignment": "CENTER"
         },
         "class_id": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"class_id\"]))}}",
+            "computedValue": "{{ClassFoldersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"class_id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "class_id",
@@ -175,7 +175,7 @@
             "verticalAlignment": "CENTER"
         },
         "folder_name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"folder_name\"]))}}",
+            "computedValue": "{{ClassFoldersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"folder_name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "folder_name",
