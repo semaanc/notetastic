@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "CommonClassPage",
-    "slug": "commonclasspage",
+    "name": "ProfessorClassPage",
+    "slug": "professorclasspage",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 482,
+          "bottomRow": 810,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -30,13 +30,35 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "CommonClassPage_ClassData",
-              "name": "ClassData",
+              "id": "ProfessorClassPage_GetClassFolders",
+              "name": "GetClassFolders",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.class_id",
-                "appsmith.store.course_id"
+                "appsmith.store.course_id",
+                "appsmith.store.class_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "ProfessorClassPage_GetStudents",
+              "name": "GetStudents",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.course_id",
+                "appsmith.store.class_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "ProfessorClassPage_GetTAs",
+              "name": "GetTAs",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.course_id",
+                "appsmith.store.class_id"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -44,7 +66,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "CommonClassPage",
+        "id": "ProfessorClassPage",
         "deleted": false,
         "policies": [],
         "userPermissions": []
