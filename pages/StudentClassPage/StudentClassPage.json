@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "HomePage",
-    "slug": "homepage",
+    "name": "StudentClassPage",
+    "slug": "studentclasspage",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 430,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 65,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "HomePage",
+        "id": "StudentClassPage",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656f8a4419474a1789a44f7d_656f8a4419474a1789a44f7f"
+  "gitSyncId": "656f8fb1145ddd3294c29cde_656febfe145ddd3294c29d0a"
 }
