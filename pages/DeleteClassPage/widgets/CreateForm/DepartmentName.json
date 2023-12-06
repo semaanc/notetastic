@@ -4,14 +4,14 @@
     "iconSVG": "/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
     "onSubmit": "",
     "displayName": "Input",
-    "topRow": 5,
+    "topRow": 11,
     "searchTags": [
         "form",
         "text input",
         "number",
         "textarea"
     ],
-    "bottomRow": 12,
+    "bottomRow": 18,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "autoFocus": false,

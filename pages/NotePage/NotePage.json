@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "StudentClassesPage",
-    "slug": "studentclassespage",
+    "name": "NotePage",
+    "slug": "notepage",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 390,
+          "bottomRow": 580,
           "containerStyle": "none",
-          "snapRows": 65,
+          "snapRows": 61,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 670,
+          "minHeight": 630,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,13 +28,12 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "StudentClassesPage_GetClassFolders",
-              "name": "GetClassFolders",
+              "id": "NotePage_GetComments",
+              "name": "GetComments",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.class_id",
-                "appsmith.URL.queryParams.course_id"
+                "appsmith.store.note_id"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -42,7 +41,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "StudentClassesPage",
+        "id": "NotePage",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -53,5 +52,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656f8fb1145ddd3294c29cde_65700019145ddd3294c29d31"
+  "gitSyncId": "6570b08d9700ab3ccea2ff23_6570c2ad165f5601f6344599"
 }

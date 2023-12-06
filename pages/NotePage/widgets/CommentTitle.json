@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 16,
-    "widgetName": "NoteTitle",
+    "widgetName": "CommentTitle",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 12,
-    "bottomRow": 16,
+    "topRow": 10,
+    "bottomRow": 14,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,22 +19,21 @@
     "fontFamily": "Noto Sans",
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 33,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "     NOTE ID: {{appsmith.store.reportednote_note_id}}",
+    "text": "     COMMENTS",
     "key": "1emmabbso8",
     "isDeprecated": false,
-    "rightColumn": 46,
-    "backgroundColor": "#dcfce7",
+    "rightColumn": 64,
+    "backgroundColor": "#dbeafe",
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
-    "widgetId": "zelcnagnro",
+    "widgetId": "5xre62m8j9",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",

@@ -8,8 +8,8 @@
         "click",
         "submit"
     ],
-    "topRow": 6,
-    "bottomRow": 10,
+    "topRow": 4,
+    "bottomRow": 8,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -64,13 +64,13 @@
         {"key": "groupButtons.groupButtonhtxiirxtvj.onClick"},
         {"key": "groupButtons.groupButtonim4znk12ov.onClick"}
     ],
-    "leftColumn": 2,
+    "leftColumn": 3,
     "dynamicBindingPathList": [],
     "key": "k4btf2k5fd",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 49,
-    "widgetId": "05g59sqyv3",
+    "rightColumn": 60,
+    "widgetId": "2d08f8qqa0",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
