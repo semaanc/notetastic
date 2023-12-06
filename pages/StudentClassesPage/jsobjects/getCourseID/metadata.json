@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "getCourseID",
+    "pageId": "StudentClassesPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "StudentClassesPage_getCourseID",
+  "deleted": false,
+  "gitSyncId": "656f8fb1145ddd3294c29cde_6570014c145ddd3294c29d3c"
+}
