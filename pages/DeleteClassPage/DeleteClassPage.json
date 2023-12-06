@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "ProfessorHomePage",
-    "slug": "professorhomepage",
+    "name": "DeleteClassPage",
+    "slug": "deleteclasspage",
     "layouts": [
       {
         "viewMode": false,
@@ -15,33 +15,22 @@
           "topRow": 0,
           "bottomRow": 510,
           "containerStyle": "none",
-          "snapRows": 79,
+          "snapRows": 61,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 810,
+          "minHeight": 630,
           "useAutoLayout": false,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "positioning": "fixed"
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "ProfessorHomePage_GetAllClasses",
-              "name": "GetAllClasses",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "ProfessorHomePage",
+        "id": "DeleteClassPage",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -52,5 +41,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656f8a4419474a1789a44f7d_656f8aab19474a1789a44f88"
+  "gitSyncId": "656f906b19474a1789a44f9d_656fe65b8415d124a1961935"
 }

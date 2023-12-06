@@ -21,6 +21,18 @@
       "isDefault": false
     },
     {
+      "id": "CreateClassPage",
+      "isDefault": false
+    },
+    {
+      "id": "DeleteClassPage",
+      "isDefault": false
+    },
+    {
+      "id": "ReportedNotes",
+      "isDefault": false
+    },
+    {
       "id": "StudentClassesPage",
       "isDefault": false
     }
@@ -35,6 +47,12 @@
   },
   "color": "#F4FFDE",
   "icon": "card",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
