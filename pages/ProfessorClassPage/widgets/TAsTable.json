@@ -61,7 +61,7 @@
     "columnUpdatedAt": 1701900744876,
     "primaryColumnId": "ta_id",
     "defaultSelectedRowIndices": [0],
-    "widgetName": "StudentsCopy",
+    "widgetName": "TAsTable",
     "defaultPageSize": 0,
     "columnOrder": [
         "ta_id",
@@ -86,7 +86,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "last_name": {
-            "computedValue": "{{StudentsCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_name\"]))}}",
+            "computedValue": "{{TAsTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "last_name",
@@ -120,7 +120,7 @@
             "verticalAlignment": "CENTER"
         },
         "first_name": {
-            "computedValue": "{{StudentsCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"first_name\"]))}}",
+            "computedValue": "{{TAsTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"first_name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "first_name",
@@ -154,7 +154,7 @@
             "verticalAlignment": "CENTER"
         },
         "ta_id": {
-            "computedValue": "{{StudentsCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ta_id\"]))}}",
+            "computedValue": "{{TAsTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ta_id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "ta_id",
@@ -185,7 +185,7 @@
             "verticalAlignment": "CENTER"
         },
         "email": {
-            "computedValue": "{{StudentsCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
+            "computedValue": "{{TAsTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "email",
@@ -196,7 +196,7 @@
             "allowSameOptionsInNewRow": true,
             "validation": {},
             "isCellVisible": true,
-            "displayText": "{{StudentsCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
+            "displayText": "{{TAsTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,

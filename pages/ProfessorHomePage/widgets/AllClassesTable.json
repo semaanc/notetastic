@@ -248,7 +248,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{storeValue('course_id', AllClassesTable.selectedRow.course_id);\nstoreValue('class_id', AllClassesTable.selectedRow.class_id);\nnavigateTo('CommonClassPage', {}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{storeValue('course_id', AllClassesTable.selectedRow.course_id);\nstoreValue('class_id', AllClassesTable.selectedRow.class_id);\nnavigateTo('ProfessorClassPage', {}, 'SAME_WINDOW');}}",
     "defaultSearchText": "",
     "key": "5x78sn2ypq",
     "canFreezeColumn": true,
