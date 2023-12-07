@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "name": "filterNotes",
+    "fullyQualifiedName": "filterNotes.filterNotes",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "StudentClassesPage",
-    "collectionId": "StudentClassesPage_JSObject1",
+    "pageId": "TAClassesPage",
+    "collectionId": "TAClassesPage_filterNotes",
     "actionConfiguration": {
       "timeoutInMillisecond": 0,
       "paginationType": "NONE",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,9 +34,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-07T17:37:01Z"
   },
-  "id": "StudentClassesPage_JSObject1.myFun1",
+  "id": "TAClassesPage_filterNotes.filterNotes",
   "deleted": false,
-  "gitSyncId": "6571fbd162083d40446069e6_6571fe9262083d4044606a39"
+  "gitSyncId": "6571fbd162083d40446069e6_657202bd62083d4044606a58"
 }

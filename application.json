@@ -35,6 +35,10 @@
     {
       "id": "StudentClassesPage",
       "isDefault": false
+    },
+    {
+      "id": "TAClassesPage",
+      "isDefault": false
     }
   ],
   "viewMode": false,
