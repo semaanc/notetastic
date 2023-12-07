@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 18,
     "widgetName": "ViewCommentsButton",
-    "onClick": "{{storeValue('note_id', Notes.currentItemsView[0][\"NoteID\"][\"text\"]).then(() => {});\ngetComments.get();\nshowModal('Comments');}}",
+    "onClick": "{{storeValue('note_id', Notes.currentItemsView[0][\"NoteID\"][\"text\"]).then(() => {});\nGetNoteComments.run()\nshowModal('Comments');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
