@@ -1,0 +1,3 @@
+{
+	"student_id" : {{parseInt(AddRemoveStudentID.text)}}
+}
