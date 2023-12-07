@@ -1,0 +1,4 @@
+{
+	"time" : {{appsmith.store.time}},
+	"date" : {{appsmith.store.date}}
+}

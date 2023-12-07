@@ -1,0 +1,109 @@
+{
+    "boxShadow": "none",
+    "mobileBottomRow": 94,
+    "widgetName": "AddRemoveOH",
+    "isCanvas": false,
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 69,
+    "bottomRow": 73,
+    "parentRowSpace": 10,
+    "type": "BUTTON_GROUP_WIDGET",
+    "groupButtons": {
+        "groupButton3": {
+            "onClick": "{{storeValue('course_id', parseInt(CourseID.text));\nstoreValue('class_id', parseInt(ClassID.text));\nstoreValue('date', OHDate.text);\nstoreValue('time', OHTime.text);\nstoreValue('location', OHLocation.text);\nDeleteTAOH.run().then(() => {\n  GetTAOH.run();\n  showAlert('Office Hours deleted!', 'success');\n}).catch(() => {\n  showAlert('Operation unsuccessful. Please try again later.', 'error');\n});}}",
+            "buttonType": "SIMPLE",
+            "iconName": "remove",
+            "buttonColor": "#b91c1c",
+            "widgetId": "",
+            "menuItems": {
+                "menuItem1": {
+                    "backgroundColor": "#FFFFFF",
+                    "onClick": "",
+                    "widgetId": "",
+                    "index": 0,
+                    "label": "First Option",
+                    "id": "menuItem1",
+                    "isVisible": true,
+                    "isDisabled": false
+                },
+                "menuItem3": {
+                    "backgroundColor": "#DD4B34",
+                    "onClick": "",
+                    "iconName": "trash",
+                    "widgetId": "",
+                    "iconColor": "#FFFFFF",
+                    "iconAlign": "right",
+                    "index": 2,
+                    "label": "Delete",
+                    "id": "menuItem3",
+                    "isVisible": true,
+                    "isDisabled": false,
+                    "textColor": "#FFFFFF"
+                },
+                "menuItem2": {
+                    "backgroundColor": "#FFFFFF",
+                    "onClick": "",
+                    "widgetId": "",
+                    "index": 1,
+                    "label": "Second Option",
+                    "id": "menuItem2",
+                    "isVisible": true,
+                    "isDisabled": false
+                }
+            },
+            "index": 1,
+            "label": "Remove",
+            "id": "groupButton3",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton2": {
+            "onClick": "{{storeValue('course_id', parseInt(CourseID.text));\nstoreValue('class_id', parseInt(ClassID.text));\nstoreValue('date', OHDate.text);\nstoreValue('time', OHTime.text);\nstoreValue('location', OHLocation.text);\nAddTAOH.run().then(() => {\n  GetTAOH.run();\n  showAlert('Office Hours added!', 'success');\n}).catch(() => {\n  showAlert('Operation unsuccessful. Please try again later.', 'error');\n});}}",
+            "buttonType": "SIMPLE",
+            "iconName": "add",
+            "buttonColor": "#15803d",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "Add",
+            "id": "groupButton2",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "hideCard": false,
+    "mobileRightColumn": 49,
+    "animateLoading": true,
+    "parentColumnSpace": 19.296875,
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton3.onClick"}
+    ],
+    "leftColumn": 50,
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "key": "jiodg3bgxt",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 62,
+    "widgetId": "2p8onlqisn",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 90,
+    "responsiveBehavior": "fill",
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 25,
+    "buttonVariant": "PRIMARY"
+}
