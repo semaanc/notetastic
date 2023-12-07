@@ -76,6 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "gkfmvelglt",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 29,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -103,11 +104,12 @@
     "rightColumn": 45,
     "widgetId": "04n8c9ojc3",
     "minWidth": 450,
-    "onItemClick": "{{showModal('Modal1');}}",
+    "onItemClick": "{{showModal('Modal1');\nstoreValue('folder_name', List1.selectedItem.folder_name);}}",
     "parentId": "0",
     "renderMode": "CANVAS",
     "mobileTopRow": 27,
     "responsiveBehavior": "fill",
+    "originalTopRow": 9,
     "mobileLeftColumn": 22,
     "selectedItemView": "{{{}}}"
 }

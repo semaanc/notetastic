@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,7 +35,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-07T17:37:01Z"
+    "createdAt": "2023-12-07T20:51:27Z"
   },
   "id": "TAClassesPage_filterNotes.filterNotes",
   "deleted": false,
