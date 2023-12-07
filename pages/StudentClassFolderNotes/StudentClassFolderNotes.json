@@ -41,13 +41,12 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "StudentClassFolderNotes_getComments.get",
-              "name": "getComments.get",
-              "collectionId": "StudentClassFolderNotes_getComments",
+              "id": "StudentClassFolderNotes_GetNoteComments",
+              "name": "GetNoteComments",
               "confirmBeforeExecute": false,
-              "pluginType": "JS",
+              "pluginType": "API",
               "jsonPathKeys": [
-                "async () => {\n  return GetNoteComments.run();\n}"
+                "appsmith.store.note_id"
               ],
               "timeoutInMillisecond": 10000
             }
