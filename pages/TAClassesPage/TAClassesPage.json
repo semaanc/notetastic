@@ -33,8 +33,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.class_id",
-                "appsmith.URL.queryParams.course_id"
+                "appsmith.URL.queryParams.course_id",
+                "appsmith.URL.queryParams.class_id"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -44,34 +44,31 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.class_id",
-                "appsmith.URL.queryParams.course_id"
+                "appsmith.URL.queryParams.course_id",
+                "appsmith.URL.queryParams.class_id"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
+            {
+              "id": "TAClassesPage_GetNoteComments",
+              "name": "GetNoteComments",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.note_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "TAClassesPage_GetNotesForClass",
               "name": "GetNotesForClass",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.class_id",
-                "appsmith.URL.queryParams.course_id"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "TAClassesPage_filterNotes.filterNotes",
-              "name": "filterNotes.filterNotes",
-              "collectionId": "TAClassesPage_filterNotes",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  return GetNotesForClass.data.filter(note => note.folder_name == appsmith.URL.queryParams.folder_name);\n}"
+                "encodeURI(appsmith.store.folder_name)",
+                "appsmith.URL.queryParams.course_id",
+                "appsmith.store.folder_name",
+                "appsmith.URL.queryParams.class_id"
               ],
               "timeoutInMillisecond": 10000
             }

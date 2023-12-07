@@ -1,0 +1,3 @@
+{
+	"classf_id" : {{appsmith.store.folder_name}}
+}
