@@ -28,7 +28,7 @@
             "placement": "CENTER"
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n}, 'NEW_WINDOW');}}",
+            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n\t\n}, 'NEW_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",

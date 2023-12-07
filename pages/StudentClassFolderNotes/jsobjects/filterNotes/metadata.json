@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "filterNotes",
+    "pageId": "StudentClassFolderNotes",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "StudentClassFolderNotes_filterNotes",
+  "deleted": false,
+  "gitSyncId": "65700d89145ddd3294c29d56_6570e60bc252996b35bbf6fc"
+}

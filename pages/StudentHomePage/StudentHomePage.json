@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 1160,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -28,6 +28,16 @@
           "positioning": "fixed"
         },
         "layoutOnLoadActions": [
+          [
+            {
+              "id": "StudentHomePage_GetFolders40",
+              "name": "GetFolders40",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
           [
             {
               "id": "StudentHomePage_GetClasses",
@@ -50,14 +60,6 @@
             {
               "id": "StudentHomePage_GetClasses40",
               "name": "GetClasses40",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "StudentHomePage_GetFolders40",
-              "name": "GetFolders40",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
