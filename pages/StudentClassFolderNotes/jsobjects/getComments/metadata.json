@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "getComments",
+    "pageId": "StudentClassFolderNotes",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "StudentClassFolderNotes_getComments",
+  "deleted": false,
+  "gitSyncId": "65700d89145ddd3294c29d56_6570ef23c252996b35bbf703"
+}

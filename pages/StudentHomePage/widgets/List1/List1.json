@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 15,
+    "topRow": 11,
     "pageSize": 4,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": "8",
@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "3u4if0ch7i",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 56,
+    "originalBottomRow": 52,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -89,7 +89,7 @@
     "widgetName": "List1",
     "listData": "[\n  {\n    \"id\": \"{{GetStudent40.data[0][\"first_name\"]}}\",\n    \"name\": \"First Name\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n  {\n    \"id\": \"{{GetStudent40.data[0][\"last_name\"]}}\",\n    \"name\": \"Last Name\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n  {\n    \"id\": \"{{GetStudent40.data[0][\"email\"]}}\",\n    \"name\": \"Email Address\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n\t\n\t {\n    \"id\": \"{{GetStudent40.data[0][\"student_id\"]}}\",\n    \"name\": \"Student ID\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  }\n]",
     "displayName": "List",
-    "bottomRow": 56,
+    "bottomRow": 52,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 45,
@@ -109,7 +109,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 9,
     "responsiveBehavior": "fill",
-    "originalTopRow": 15,
+    "originalTopRow": 11,
     "mobileLeftColumn": 21,
     "selectedItemView": "{{{}}}"
 }
