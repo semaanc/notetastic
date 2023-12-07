@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 50,
     "widgetName": "SubmitCommentButton",
-    "onClick": "{{AddComment.run().then(() => {\n  showAlert('Comment posted!', 'success');\n}).catch(() => {\n  showAlert('Comment failed to post.', 'error');\n});\nremoveValue(\"\")}}",
+    "onClick": "{{AddComment.run().then(() => {\n  showAlert('Comment posted!', 'success');\n  getComments.get();\n}).catch(() => {\n  showAlert('Comment failed to post.', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

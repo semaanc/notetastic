@@ -15,7 +15,7 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButtonzxmkcf76d4": {
-            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n}, 'NEW_WINDOW');}}",
+            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n}, 'SAME_WINDOW');\nstoreValue('student_class_folder_name', GetClassFolders.data[2].folder_name);}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "z0jb97ujq1",
@@ -28,7 +28,7 @@
             "placement": "CENTER"
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n\t\n}, 'NEW_WINDOW');}}",
+            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n}, 'SAME_WINDOW');\nstoreValue('student_class_folder_name', GetClassFolders.data[0].folder_name);}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
@@ -41,7 +41,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n}, 'NEW_WINDOW');}}",
+            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n}, 'SAME_WINDOW');\nstoreValue('student_class_folder_name', GetClassFolders.data[1].folder_name);}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
@@ -68,10 +68,10 @@
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButton1.label"},
         {"key": "groupButtons.groupButton2.label"},
         {"key": "groupButtons.groupButtonzxmkcf76d4.buttonColor"},
-        {"key": "groupButtons.groupButtonzxmkcf76d4.label"}
+        {"key": "groupButtons.groupButtonzxmkcf76d4.label"},
+        {"key": "groupButtons.groupButton1.label"}
     ],
     "key": "fniqw1oyzi",
     "orientation": "horizontal",

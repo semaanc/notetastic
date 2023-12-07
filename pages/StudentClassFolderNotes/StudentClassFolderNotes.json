@@ -28,6 +28,19 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "StudentClassFolderNotes_GetFolderNotes",
+              "name": "GetFolderNotes",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.student_class_class_id",
+                "appsmith.store.student_class_folder_name",
+                "encodeURI(appsmith.store.student_class_folder_name)",
+                "appsmith.store.student_class_course_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "StudentClassFolderNotes_getComments.get",
               "name": "getComments.get",
               "collectionId": "StudentClassFolderNotes_getComments",
@@ -46,30 +59,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "StudentClassFolderNotes_GetNotesForClass",
-              "name": "GetNotesForClass",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.course_id",
-                "appsmith.URL.queryParams.class_id"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "StudentClassFolderNotes_filterNotes.filterNotes",
-              "name": "filterNotes.filterNotes",
-              "collectionId": "StudentClassFolderNotes_filterNotes",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  return GetNotesForClass.data.filter(note => note.folder_name == appsmith.URL.queryParams.folder_name);\n}"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]

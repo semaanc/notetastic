@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 103,
     "widgetName": "Button3",
-    "onClick": "{{showModal('CreateFolder').then(() => {\n  showAlert('Folder created!', '');\n  GetFolders40.run();\n}).catch(() => {\n  showAlert('Folder failed to create.', 'error');\n});}}",
+    "onClick": "{{showModal('CreateFolder').then(() => {}).catch(() => {});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

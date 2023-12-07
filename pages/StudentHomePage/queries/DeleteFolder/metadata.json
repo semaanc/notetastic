@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"folder_name\": {{appsmith.store.folder_name}}}",
+      "body": "{\n\t\"folder_name\": {{appsmith.store.folder_name}}\n}",
       "bodyFormData": [],
       "httpMethod": "DELETE",
       "selfReferencingDataPaths": [],

@@ -15,7 +15,7 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton1": {
-            "onClick": "{{navigateTo('StudentClassesPage', {\n  course_id: GetClasses40.data[0].course_id,\n  class_id: GetClasses40.data[0].class_id\n}, 'NEW_WINDOW');}}",
+            "onClick": "{{navigateTo('StudentClassesPage', {\n  course_id: GetClasses40.data[0].course_id,\n  class_id: GetClasses40.data[0].class_id\n}, 'SAME_WINDOW');\nstoreValue('student_class_course_id', GetClasses40.data[0].course_id);\nstoreValue('student_class_class_id', GetClasses40.data[0].class_id);}}",
             "buttonType": "SIMPLE",
             "iconName": "add-to-folder",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -29,7 +29,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('StudentClassesPage', {\n  course_id: GetClasses40.data[1].course_id,\n  class_id: GetClasses40.data[1].class_id\n}, 'NEW_WINDOW');}}",
+            "onClick": "{{navigateTo('StudentClassesPage', {\n  course_id: GetClasses40.data[1].course_id,\n  class_id: GetClasses40.data[1].class_id\n}, 'SAME_WINDOW');\nstoreValue('student_class_course_id', GetClasses40.data[1].course_id);\nstoreValue('student_class_class_id', GetClasses40.data[1].class_id);}}",
             "buttonType": "SIMPLE",
             "iconName": "add-to-folder",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",

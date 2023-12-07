@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "ConfirmButton",
-    "onClick": "{{AddNote.run().then(() => {\n  showAlert('Note posted!', 'success');\n  filterNotes.filterNotes();\n}).catch(() => {\n  showAlert('Note failed to post.', 'error');\n});\nstoreValue('note_text', NoteInput.text);}}",
+    "onClick": "{{AddNote.run().then(() => {\n  showAlert('Note posted!', 'success');\n  GetFolderNotes.run();\n  closeModal('NoteModal');\n}).catch(() => {\n  showAlert('Note failed to post.', 'error');\n});\nstoreValue('note_text', NoteInput.text);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
