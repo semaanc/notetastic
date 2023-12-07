@@ -1,0 +1,6 @@
+{"student_id": 40, 
+ "note_content": {{NoteInput.text}},
+ "student_folder": {{FolderSelect.selectedOptionValue}},
+ "class_folder": {{appsmith.URL.queryParams.folder_name}}, 
+ "class_id": {{parseInt(appsmith.URL.queryParams.class_id)}}, 
+ "course_id": {{parseInt(appsmith.URL.queryParams.course_id)}}}

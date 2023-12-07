@@ -4,7 +4,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 6,
+    "topRow": 11,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -84,7 +84,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 47,
+    "bottomRow": 52,
     "columnWidthMap": {
         "course_name": 276,
         "department_name": 217
@@ -407,7 +407,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{storeValue('reportednote_note_id', parseInt(ReportedNotesTable.selectedRow.note_id));\nstoreValue('reportednote_student_id', parseInt(ReportedNotesTable.selectedRow.student_id));\nstoreValue('reportednote_note_content', ReportedNotesTable.selectedRow.note_content);\nstoreValue('reportednote_course_id', parseInt(ReportedNotesTable.selectedRow.course_id));\nstoreValue('reportednote_class_id', parseInt(ReportedNotesTable.selectedRow.class_id));\nnavigateTo('ReportedNoteView', {}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{storeValue('reportednote_note_id', parseInt(ReportedNotesTable.selectedRow.note_id));\nstoreValue('reportednote_student_id', parseInt(ReportedNotesTable.selectedRow.student_id));\nstoreValue('reportednote_note_content', ReportedNotesTable.selectedRow.note_content);\nstoreValue('reportednote_course_id', parseInt(ReportedNotesTable.selectedRow.course_id));\nstoreValue('reportednote_class_id', parseInt(ReportedNotesTable.selectedRow.class_id));\nnavigateTo('ReportedNotePage', {}, 'SAME_WINDOW');}}",
     "defaultSearchText": "",
     "key": "5x78sn2ypq",
     "canFreezeColumn": true,

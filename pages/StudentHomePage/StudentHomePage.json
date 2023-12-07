@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 1190,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -30,8 +30,37 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "StudentHomePage_GetFolders40",
+              "name": "GetFolders40",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "StudentHomePage_getComments.get",
+              "name": "getComments.get",
+              "collectionId": "StudentHomePage_getComments",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  return GetNoteComments.run();\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "StudentHomePage_GetClasses",
               "name": "GetClasses",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "StudentHomePage_GetNotes",
+              "name": "GetNotes",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -54,13 +83,18 @@
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "StudentHomePage_GetFolders40",
-              "name": "GetFolders40",
+              "id": "StudentHomePage_folderNotes.filterNotes",
+              "name": "folderNotes.filterNotes",
+              "collectionId": "StudentHomePage_folderNotes",
               "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  return GetNotes.data.filter(note => note.student_folder === appsmith.store.folder_name);\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

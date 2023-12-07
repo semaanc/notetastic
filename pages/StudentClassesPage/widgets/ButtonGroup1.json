@@ -9,12 +9,13 @@
         "click",
         "submit"
     ],
-    "topRow": 8,
-    "bottomRow": 26,
+    "topRow": 19,
+    "bottomRow": 34,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButtonzxmkcf76d4": {
+            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n}, 'NEW_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "z0jb97ujq1",
@@ -27,6 +28,7 @@
             "placement": "CENTER"
         },
         "groupButton1": {
+            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n\t\n}, 'NEW_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
@@ -39,6 +41,7 @@
             "isDisabled": false
         },
         "groupButton2": {
+            "onClick": "{{navigateTo('StudentClassFolderNotes', {\n  \"course_id\": GetClassFolders.data[0].course_id,\n  \"class_id\": GetClassFolders.data[0].class_id,\n  \"folder_name\": GetClassFolders.data[0].folder_name\n}, 'NEW_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
@@ -55,7 +58,11 @@
     "mobileRightColumn": 45,
     "animateLoading": true,
     "parentColumnSpace": 12.265625,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButtonzxmkcf76d4.onClick"}
+    ],
     "leftColumn": 9,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
@@ -81,9 +88,9 @@
     "mobileTopRow": 19,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 10,
+    "originalTopRow": 19,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 21,
-    "originalBottomRow": 75,
+    "originalBottomRow": 34,
     "buttonVariant": "PRIMARY"
 }

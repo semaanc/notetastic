@@ -4,7 +4,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 5.2,
+    "topRow": 5,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -74,7 +74,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 46.2,
+    "bottomRow": 46,
     "columnWidthMap": {
         "course_name": 276,
         "department_name": 217
@@ -248,7 +248,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{storeValue('course_id', AllClassesTable.selectedRow.course_id);\nstoreValue('class_id', AllClassesTable.selectedRow.class_id);\nnavigateTo('CommonClassPage', {}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{storeValue('course_id', AllClassesTable.selectedRow.course_id);\nstoreValue('class_id', AllClassesTable.selectedRow.class_id);\nnavigateTo('ProfessorClassPage', {}, 'SAME_WINDOW');}}",
     "defaultSearchText": "",
     "key": "5x78sn2ypq",
     "canFreezeColumn": true,

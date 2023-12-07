@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "getComments",
+    "pageId": "StudentHomePage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "StudentHomePage_getComments",
+  "deleted": false,
+  "gitSyncId": "65700d89145ddd3294c29d56_65713859c252996b35bbf73c"
+}

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 390,
+          "bottomRow": 730,
           "containerStyle": "none",
           "snapRows": 65,
           "parentRowSpace": 1,
@@ -26,6 +26,30 @@
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
+          [
+            {
+              "id": "StudentClassesPage_GetClass",
+              "name": "GetClass",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.class_id",
+                "appsmith.URL.queryParams.course_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "StudentClassesPage_GetClassOH",
+              "name": "GetClassOH",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.course_id",
+                "appsmith.URL.queryParams.class_id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
           [
             {
               "id": "StudentClassesPage_GetClassFolders",
