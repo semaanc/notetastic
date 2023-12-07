@@ -38,7 +38,7 @@
           "value": ""
         }
       ],
-      "body": "",
+      "body": "{\n  \"course_id\": {{parseInt(CourseID.text)}},\n  \"professor_id\": {{parseInt(ProfessorID.text)}},\n  \"class_id\": {{parseInt(ClassID.text)}},\n  \"course_name\": {{CourseName.text}},\n  \"department_name\": {{DepartmentName.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
