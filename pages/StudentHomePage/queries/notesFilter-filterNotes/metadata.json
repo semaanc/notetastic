@@ -16,7 +16,7 @@
     "pageId": "StudentHomePage",
     "collectionId": "StudentHomePage_notesFilter",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
