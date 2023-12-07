@@ -38,13 +38,12 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "StudentHomePage_getComments.get",
-              "name": "getComments.get",
-              "collectionId": "StudentHomePage_getComments",
+              "id": "StudentHomePage_GetStudent40FolderData",
+              "name": "GetStudent40FolderData",
               "confirmBeforeExecute": false,
-              "pluginType": "JS",
+              "pluginType": "API",
               "jsonPathKeys": [
-                "async () => {\n  return GetNoteComments.run();\n}"
+                "appsmith.store.student_class_folder_name"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -53,14 +52,6 @@
             {
               "id": "StudentHomePage_GetClasses",
               "name": "GetClasses",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "StudentHomePage_GetNotes",
-              "name": "GetNotes",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -82,19 +73,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "StudentHomePage_folderNotes.filterNotes",
-              "name": "folderNotes.filterNotes",
-              "collectionId": "StudentHomePage_folderNotes",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  return GetNotes.data.filter(note => note.student_folder === appsmith.store.folder_name);\n}"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]
