@@ -68,7 +68,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "function () {\n  return GetNotesForClass.data.filter(note => note.class_folder === appsmith.URL.queryParams.folder_name);\n}"
+                "function () {\n  return GetNotesForClass.data.filter(note => note.folder_name == appsmith.URL.queryParams.folder_name);\n}"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -105,7 +105,7 @@
     "rightColumn": 46,
     "widgetId": "tm6q32aui6",
     "minWidth": 450,
-    "onItemClick": "{{storeValue('folder_name', List2.selectedItem.folder_name).then(() => {\n  showModal('StudentFolderModal');\n});}}",
+    "onItemClick": "{{storeValue('folder_name', List2.selectedItem.folder_name).then(() => {\n  folderNotes.filterNotes();\n  showModal('StudentFolderModal');\n});}}",
     "parentId": "0",
     "renderMode": "CANVAS",
     "mobileTopRow": 69,

@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button4",
-    "onClick": "{{DeleteFolder.run().then(() => {\n  showAlert('Folder deleted', 'success');\n}).catch(() => {\n  showAlert('Folder failed to delete', 'error');\n});}}",
+    "onClick": "{{storeValue('folder_name', List2.selectedItem.folder_name).then(() => {\n  DeleteFolder.run();\n  showAlert('Folder deleted', 'success');\n  GetFolders40.run();\n}).catch(() => {\n  showAlert('Folder failed to delete', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
