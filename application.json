@@ -55,6 +55,10 @@
     {
       "id": "NoteCommentPage",
       "isDefault": false
+    },
+    {
+      "id": "TAClassesPage",
+      "isDefault": false
     }
   ],
   "viewMode": false,
