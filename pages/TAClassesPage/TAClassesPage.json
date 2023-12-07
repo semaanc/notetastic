@@ -65,10 +65,10 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.class_id",
+                "encodeURI(appsmith.store.folder_name)",
                 "appsmith.URL.queryParams.course_id",
                 "appsmith.store.folder_name",
-                "encodeURI(appsmith.store.folder_name)"
+                "appsmith.URL.queryParams.class_id"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -84,7 +84,7 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
   "gitSyncId": "6571fbd162083d40446069e6_6571fbf562083d4044606a12"
