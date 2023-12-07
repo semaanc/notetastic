@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "name": "getCourseID",
+    "fullyQualifiedName": "getCourseID.getCourseID",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,10 +13,10 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "StudentClassesPage",
-    "collectionId": "StudentClassesPage_JSObject1",
+    "pageId": "TAClassesPage",
+    "collectionId": "TAClassesPage_getCourseID",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -34,9 +34,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-06T05:06:34Z"
   },
-  "id": "StudentClassesPage_JSObject1.myFun1",
+  "id": "TAClassesPage_getCourseID.getCourseID",
   "deleted": false,
-  "gitSyncId": "6571fbd162083d40446069e6_6571fe9262083d4044606a39"
+  "gitSyncId": "6571fbd162083d40446069e6_6571fbf562083d4044606a16"
 }

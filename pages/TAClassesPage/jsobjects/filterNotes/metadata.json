@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "filterNotes",
+    "pageId": "TAClassesPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "TAClassesPage_filterNotes",
+  "deleted": false,
+  "gitSyncId": "6571fbd162083d40446069e6_6571fbf562083d4044606a22"
+}
