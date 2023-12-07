@@ -21,7 +21,7 @@
     "needsHeightForContent": true,
     "leftColumn": 0,
     "delimiter": ",",
-    "defaultSelectedRowIndex": 0,
+    "defaultSelectedRowIndex": "0",
     "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -81,7 +81,7 @@
     "hideCard": false,
     "mobileRightColumn": 51,
     "parentColumnSpace": 9.3125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "course_id": {
@@ -187,6 +187,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{storeValue('class_id_in_ta_view', TA_Classes.selectedRow.class_id).then(() => {\n  navigateTo(\"\", {}, 'SAME_WINDOW');\n});\nnavigateTo('StudentClassesPage', {}, 'SAME_WINDOW');}}",
     "defaultSearchText": "",
     "key": "pbnwbreand",
     "canFreezeColumn": true,

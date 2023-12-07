@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 61,
+    "topRow": 49,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -30,6 +30,7 @@
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
+    "onAddNewRowDiscard": "{{DeleteTAOH.run().then(() => {\n  GetTAOH.run();\n});}}",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
     "isVisible": true,
@@ -65,7 +66,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701922602683,
+    "columnUpdatedAt": 1701927382761,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 73,
     "widgetName": "Table1",
@@ -83,20 +84,23 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 89,
+    "bottomRow": 87,
     "columnWidthMap": {
-        "date": 107,
-        "course_id": 123,
+        "date": 128,
+        "course_id": 125,
         "class_id": 117,
         "time": 102,
-        "ta_id": 96
+        "ta_id": 108
     },
     "parentRowSpace": 10,
     "hideCard": false,
-    "onAddNewRowSave": "{{AddTAOH.run({\n \"key\": \"value\",\n});}}",
+    "onAddNewRowSave": "{{AddTAOH.run({}).then(() => {\n  GetTAOH.run();\n});}}",
     "mobileRightColumn": 36,
     "parentColumnSpace": 13.234375,
-    "dynamicTriggerPathList": [{"key": "onAddNewRowSave"}],
+    "dynamicTriggerPathList": [
+        {"key": "onAddNewRowSave"},
+        {"key": "onAddNewRowDiscard"}
+    ],
     "borderWidth": "1",
     "primaryColumns": {
         "date": {
@@ -109,6 +113,7 @@
             "id": "date",
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
+            "outputFormat": "YYYY-MM-DD",
             "validation": {},
             "isCellVisible": true,
             "isDerived": false,
@@ -119,6 +124,7 @@
             "isVisible": true,
             "label": "Date",
             "fontStyle": "",
+            "inputFormat": "YYYY-MM-DD",
             "textColor": "",
             "columnType": "date",
             "thousandSeparator": true,
@@ -307,7 +313,7 @@
     "key": "ujxopb0ydd",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 58,
+    "rightColumn": 60,
     "textSize": "0.875rem",
     "widgetId": "73v0o9qzck",
     "allowAddNewRow": true,
