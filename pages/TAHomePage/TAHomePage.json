@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 890,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -27,7 +27,26 @@
           "leftColumn": 0,
           "positioning": "fixed"
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "TAHomePage_GetTAClasses",
+              "name": "GetTAClasses",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "TAHomePage_GetTAOH",
+              "name": "GetTAOH",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "TAHomePage",
