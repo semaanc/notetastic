@@ -43,7 +43,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.student_class_folder_name"
+                "appsmith.store.student_class_folder_name",
+                "encodeURI(appsmith.store.student_class_folder_name)"
               ],
               "timeoutInMillisecond": 10000
             }

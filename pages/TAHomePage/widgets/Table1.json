@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 49,
+    "topRow": 47,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -66,7 +66,8 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701927382761,
+    "columnUpdatedAt": 1701979036493,
+    "originalBottomRow": 81,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 73,
     "widgetName": "Table1",
@@ -84,22 +85,28 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 87,
+    "bottomRow": 77,
     "columnWidthMap": {
-        "date": 128,
+        "date": 115,
         "course_id": 125,
         "class_id": 117,
+        "customColumn1": 105.25,
         "time": 102,
-        "ta_id": 108
+        "ta_id": 114
     },
     "parentRowSpace": 10,
     "hideCard": false,
-    "onAddNewRowSave": "{{AddTAOH.run({}).then(() => {\n  GetTAOH.run();\n});}}",
+    "onAddNewRowSave": "{{storeValue('class_id', parseInt(Table1.updatedRow.class_id));\nstoreValue('course_id', parseInt(Table1.updatedRow.course_id));\nstoreValue('ta_id', parseInt(Table1.updatedRow.ta_id));\nstoreValue('date', Table1.updatedRow.date);\nstoreValue('time', Table1.updatedRow.time).then(() => {\n  AddTAOH.run();\n  GetTAOH.run();\n});}}",
     "mobileRightColumn": 36,
     "parentColumnSpace": 13.234375,
     "dynamicTriggerPathList": [
         {"key": "onAddNewRowSave"},
-        {"key": "onAddNewRowDiscard"}
+        {"key": "onAddNewRowDiscard"},
+        {"key": "primaryColumns.class_id.onSubmit"},
+        {"key": "primaryColumns.course_id.onSubmit"},
+        {"key": "primaryColumns.ta_id.onSubmit"},
+        {"key": "primaryColumns.date.onDateSelected"},
+        {"key": "primaryColumns.time.onSubmit"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -115,6 +122,7 @@
             "allowSameOptionsInNewRow": true,
             "outputFormat": "YYYY-MM-DD",
             "validation": {},
+            "onDateSelected": "{{storeValue('date_selected', Table1.selectedRow.date);}}",
             "isCellVisible": true,
             "isDerived": false,
             "textSize": "0.875rem",
@@ -141,6 +149,7 @@
         },
         "course_id": {
             "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"course_id\"]))}}",
+            "onSubmit": "{{storeValue('course_id', parseInt(Table1.selectedRow.course_id));}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "course_id",
@@ -194,7 +203,7 @@
             "index": 5,
             "isDiscardVisible": true,
             "isDiscardDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}",
-            "isVisible": true,
+            "isVisible": false,
             "label": "Save / Discard",
             "discardActionLabel": "Discard",
             "columnType": "editActions",
@@ -215,6 +224,7 @@
         },
         "class_id": {
             "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"class_id\"]))}}",
+            "onSubmit": "{{storeValue('class_id', parseInt(Table1.selectedRow.class_id));}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "class_id",
@@ -246,6 +256,7 @@
         },
         "time": {
             "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"time\"]))}}",
+            "onSubmit": "{{storeValue('time', Table1.selectedRow.time);}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "time",
@@ -280,6 +291,7 @@
         },
         "ta_id": {
             "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ta_id\"]))}}",
+            "onSubmit": "{{storeValue('ta_id', parseInt(Table1.selectedRow.ta_id));}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "ta_id",
@@ -313,7 +325,7 @@
     "key": "ujxopb0ydd",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 62,
     "textSize": "0.875rem",
     "widgetId": "73v0o9qzck",
     "allowAddNewRow": true,
@@ -327,6 +339,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 51,
     "mobileLeftColumn": 2,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

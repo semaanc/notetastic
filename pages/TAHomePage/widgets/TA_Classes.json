@@ -60,7 +60,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701915140482,
-    "originalBottomRow": 36,
+    "originalBottomRow": 31,
     "defaultSelectedRowIndices": "[\n  0\n]",
     "mobileBottomRow": 37,
     "widgetName": "TA_Classes",
@@ -72,7 +72,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 32,
+    "bottomRow": 31,
     "columnWidthMap": {
         "course_id": 289,
         "class_id": 423

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "notesFilter",
+    "pageId": "StudentHomePage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "StudentHomePage_notesFilter",
+  "deleted": false,
+  "gitSyncId": "6572168c62083d4044606b23_6572182e62083d4044606b87"
+}

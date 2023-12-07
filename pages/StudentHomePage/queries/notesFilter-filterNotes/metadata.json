@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "filterNotes",
-    "fullyQualifiedName": "filterNotes.filterNotes",
+    "fullyQualifiedName": "notesFilter.filterNotes",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,16 +13,16 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "TAClassesPage",
-    "collectionId": "TAClassesPage_filterNotes",
+    "pageId": "StudentHomePage",
+    "collectionId": "StudentHomePage_notesFilter",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-07T17:37:01Z"
+    "createdAt": "2023-12-07T19:08:38Z"
   },
-  "id": "TAClassesPage_filterNotes.filterNotes",
+  "id": "StudentHomePage_notesFilter.filterNotes",
   "deleted": false,
-  "gitSyncId": "6571fbd162083d40446069e6_657202bd62083d4044606a58"
+  "gitSyncId": "6572168c62083d4044606b23_6572183662083d4044606b89"
 }
