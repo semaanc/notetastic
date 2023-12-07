@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"student_id\": 40, \n \"note_content\": {{NoteInput.text}}, \n \"reported\": FALSE,\n \"pinned\": FALSE,\n \"student_folder\": {{FolderSelect.selectedOptionValue}},\n \"class_folder\": {{appsmith.URL.queryParams.folder_name}}, \n \"class_id\": {{parseInt(appsmith.URL.queryParams.class_id)}}, \n \"course_id\": {{parseInt(appsmith.URL.queryParams.course_id)}}}",
+      "body": "{\"student_id\": 40, \n \"note_content\": {{NoteInput.text}},\n \"student_folder\": {{FolderSelect.selectedOptionValue}},\n \"class_folder\": {{appsmith.URL.queryParams.folder_name}}, \n \"class_id\": {{parseInt(appsmith.URL.queryParams.class_id)}}, \n \"course_id\": {{parseInt(appsmith.URL.queryParams.course_id)}}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
