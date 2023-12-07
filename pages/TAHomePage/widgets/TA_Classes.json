@@ -72,7 +72,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 36,
+    "bottomRow": 32,
     "columnWidthMap": {
         "course_id": 289,
         "class_id": 423
@@ -187,7 +187,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{storeValue('class_id_in_ta_view', TA_Classes.selectedRow.class_id).then(() => {\n  navigateTo(\"\", {}, 'SAME_WINDOW');\n});\nnavigateTo('StudentClassesPage', {}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{navigateTo('TAClassesPage', {\n  course_id: TA_Classes.selectedRow.course_id,\n  class_id: TA_Classes.selectedRow.class_id\n}, 'SAME_WINDOW');}}",
     "defaultSearchText": "",
     "key": "pbnwbreand",
     "canFreezeColumn": true,

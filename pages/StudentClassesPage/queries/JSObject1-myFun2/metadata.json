@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getCourseID",
-    "fullyQualifiedName": "getCourseID.getCourseID",
+    "name": "myFun2",
+    "fullyQualifiedName": "JSObject1.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "StudentClassesPage",
-    "collectionId": "StudentClassesPage_getCourseID",
+    "collectionId": "StudentClassesPage_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 0,
       "paginationType": "NONE",
@@ -36,7 +36,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "StudentClassesPage_getCourseID.getCourseID",
+  "id": "StudentClassesPage_JSObject1.myFun2",
   "deleted": false,
-  "gitSyncId": "6571fbd162083d40446069e6_6571fe9262083d4044606a3a"
+  "gitSyncId": "6571fbd162083d40446069e6_6571fe9262083d4044606a37"
 }
