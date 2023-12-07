@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "ReportedNoteView",
-    "slug": "reportednoteview",
+    "name": "ReportedNotePage",
+    "slug": "reportednotepage",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 530,
+          "bottomRow": 570,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "ReportedNoteView",
+        "id": "ReportedNotePage",
         "deleted": false,
         "policies": [],
         "userPermissions": []

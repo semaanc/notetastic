@@ -37,11 +37,19 @@
       "isDefault": false
     },
     {
-      "id": "ReportedNoteView",
+      "id": "ReportedNotePage",
       "isDefault": false
     },
     {
       "id": "NotePage",
+      "isDefault": false
+    },
+    {
+      "id": "ClassFolderPage",
+      "isDefault": false
+    },
+    {
+      "id": "NoteCommentPage",
       "isDefault": false
     }
   ],
@@ -54,7 +62,7 @@
     }
   },
   "color": "#F4FFDE",
-  "icon": "card",
+  "icon": "stars",
   "unpublishedAppLayout": {
     "type": "FLUID"
   },

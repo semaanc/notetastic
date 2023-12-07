@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 580,
+          "bottomRow": 620,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -33,7 +33,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.note_id"
+                "appsmith.store.class_note_id"
               ],
               "timeoutInMillisecond": 10000
             }

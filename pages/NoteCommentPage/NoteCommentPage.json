@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "ReportedNotes",
-    "slug": "reportednotes",
+    "name": "NoteCommentPage",
+    "slug": "notecommentpage",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 520,
+          "bottomRow": 500,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -25,21 +25,10 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "ReportedNotes_GetReportedNotes",
-              "name": "GetReportedNotes",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "ReportedNotes",
+        "id": "NoteCommentPage",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656f906b19474a1789a44f9d_656fe90d8415d124a196193a"
+  "gitSyncId": "6570b08d9700ab3ccea2ff23_65712e659351173f1014470e"
 }

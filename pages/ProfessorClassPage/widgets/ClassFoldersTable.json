@@ -78,7 +78,7 @@
     "hideCard": false,
     "mobileRightColumn": 50,
     "parentColumnSpace": 19.296875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "course_id": {
@@ -206,6 +206,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{storeValue('classf_id', ClassFoldersTable.selectedRow.folder_name);\nnavigateTo('ClassFolderPage', {}, 'SAME_WINDOW');}}",
     "key": "u6kz09pbxk",
     "canFreezeColumn": true,
     "isDeprecated": false,

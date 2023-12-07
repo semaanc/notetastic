@@ -9,8 +9,8 @@
         "click",
         "submit"
     ],
-    "topRow": 49,
-    "bottomRow": 53,
+    "topRow": 53,
+    "bottomRow": 57,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -78,14 +78,14 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{RemoveFromClass.run().then(() => {\n  showAlert('Student removed from class!', 'success');\n}).catch(() => {\n  showAlert('Unable to process request. Please contact department administrator.', 'error');\n});}}",
+            "onClick": "{{DeleteNote.run().then(() => {\n  showAlert('Note deleted!', 'success');\n  navigateTo('ReportedNotes', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Unable to process request. Please contact department administrator.', 'error');\n});}}",
             "buttonType": "SIMPLE",
             "iconName": "remove",
             "buttonColor": "#eab308",
             "widgetId": "",
             "menuItems": {},
             "index": 1,
-            "label": "Remove From Class",
+            "label": "Delete Note",
             "id": "groupButton2",
             "placement": "CENTER",
             "isVisible": true,

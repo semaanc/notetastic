@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "ReportedNotes",
-    "slug": "reportednotes",
+    "name": "ClassFolderPage",
+    "slug": "classfolderpage",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 520,
+          "bottomRow": 690,
           "containerStyle": "none",
-          "snapRows": 61,
+          "snapRows": 79,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 630,
+          "minHeight": 810,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,18 +28,23 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "ReportedNotes_GetReportedNotes",
-              "name": "GetReportedNotes",
+              "id": "ClassFolderPage_GetClassFolderNotes",
+              "name": "GetClassFolderNotes",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.course_id",
+                "encodeURI(appsmith.store.classf_id)",
+                "appsmith.store.class_id",
+                "appsmith.store.classf_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "ReportedNotes",
+        "id": "ClassFolderPage",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +55,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656f906b19474a1789a44f9d_656fe90d8415d124a196193a"
+  "gitSyncId": "6570b08d9700ab3ccea2ff23_657116f79351173f101446f5"
 }

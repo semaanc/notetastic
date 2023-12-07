@@ -1,0 +1,3 @@
+{
+	"note_id" : {{parseInt(appsmith.store.class_note_id)}}
+}
