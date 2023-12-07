@@ -86,7 +86,7 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "Notes",
-    "listData": "{{GetFolderNotes}}",
+    "listData": "{{folderNotes.filterNotes.data}}",
     "displayName": "List",
     "bottomRow": 54,
     "parentRowSpace": 10,

@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 7.7509765625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 12,
+    "leftColumn": 18,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "{{currentItem.note_id}}",
     "key": "be43caks9v",
     "isDeprecated": false,
-    "rightColumn": 28,
+    "rightColumn": 34,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
     "widgetId": "tpe88ribeg",
