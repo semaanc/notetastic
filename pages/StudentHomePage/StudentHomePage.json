@@ -36,17 +36,6 @@
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "StudentHomePage_GetStudent40FolderData",
-              "name": "GetStudent40FolderData",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.student_class_folder_name",
-                "encodeURI(appsmith.store.student_class_folder_name)"
-              ],
-              "timeoutInMillisecond": 10000
             }
           ],
           [
@@ -74,6 +63,17 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "StudentHomePage_GetStudent40FolderData",
+              "name": "GetStudent40FolderData",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.student_class_folder_name",
+                "encodeURI(appsmith.store.student_class_folder_name)"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

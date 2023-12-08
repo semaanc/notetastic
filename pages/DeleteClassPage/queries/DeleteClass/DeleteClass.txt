@@ -1,7 +1,5 @@
 {
-  "course_id": {{parseInt(CourseID.text)}},
   "professor_id": {{parseInt(ProfessorID.text)}},
-  "class_id": {{parseInt(ClassID.text)}},
   "course_name": {{CourseName.text}},
   "department_name": {{DepartmentName.text}}
 }

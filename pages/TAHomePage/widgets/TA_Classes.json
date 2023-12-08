@@ -187,7 +187,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{navigateTo('TAClassesPage', {\n  course_id: TA_Classes.selectedRow.course_id,\n  class_id: TA_Classes.selectedRow.class_id\n}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{storeValue('class_id', TA_Classes.selectedRow.class_id);\nstoreValue('course_id', TA_Classes.selectedRow.course_id);\nnavigateTo('TAClassesPage', {}, 'SAME_WINDOW');}}",
     "defaultSearchText": "",
     "key": "pbnwbreand",
     "canFreezeColumn": true,
