@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -50,7 +50,7 @@
     "key": "p3fwhxcesb",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 61,
     "widgetId": "cp06dx8ffo",
     "errorMessage": "Name canot be empty!",
     "minWidth": 450,
